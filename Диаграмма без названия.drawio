@@ -4,19 +4,19 @@
       <root>
         <mxCell id="X5NqExCQtvZxIxQ7pmgY-0" />
         <mxCell id="1" parent="X5NqExCQtvZxIxQ7pmgY-0" />
-        <mxCell id="E554dVAxD02PI6T3BY6a-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E554dVAxD02PI6T3BY6a-2" target="E554dVAxD02PI6T3BY6a-3">
+        <mxCell id="E554dVAxD02PI6T3BY6a-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E554dVAxD02PI6T3BY6a-2" target="E554dVAxD02PI6T3BY6a-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="E554dVAxD02PI6T3BY6a-2" value="asustnp_integration.outbox&lt;br&gt;&lt;b&gt;id_fixation&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="E554dVAxD02PI6T3BY6a-2" value="asustnp_integration.outbox&lt;br&gt;&lt;b&gt;id_fixation&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="59" y="753" width="185" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="E554dVAxD02PI6T3BY6a-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E554dVAxD02PI6T3BY6a-3" target="E554dVAxD02PI6T3BY6a-12">
+        <mxCell id="E554dVAxD02PI6T3BY6a-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E554dVAxD02PI6T3BY6a-3" target="E554dVAxD02PI6T3BY6a-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="E554dVAxD02PI6T3BY6a-3" value="asustnp_integration.asust_fixation_info&lt;br&gt;&lt;b&gt;fixation_side_id&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="E554dVAxD02PI6T3BY6a-3" value="asustnp_integration.asust_fixation_info&lt;br&gt;&lt;b&gt;fixation_side_id&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="315" y="753" width="288" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="E554dVAxD02PI6T3BY6a-12" value="asustnp_integration.asust_fixation_brakeshoes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="E554dVAxD02PI6T3BY6a-12" value="asustnp_integration.asust_fixation_brakeshoes" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="665" y="753" width="281" height="60" as="geometry" />
         </mxCell>
       </root>
