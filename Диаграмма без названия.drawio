@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0" border="50" scale="3" compressed="false" locked="false" version="24.8.6">
   <diagram name="Blank" id="YmL12bMKpDGza6XwsDPr">
-    <mxGraphModel dx="1780" dy="347" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="1" shadow="0">
+    <mxGraphModel dx="3160" dy="1094" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="1" shadow="0">
       <root>
         <mxCell id="X5NqExCQtvZxIxQ7pmgY-0" />
         <mxCell id="1" parent="X5NqExCQtvZxIxQ7pmgY-0" />
@@ -67,11 +67,49 @@
         <mxCell id="tKBNzQerC5wN-eB4aigU-16" value="статус PARTIALLY_FIXED" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="398" y="1185" width="122" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="WePA6gwzuE8UTN-Zw10l-2" value="&lt;div&gt;&lt;div&gt;ДА, похоже, что по нечетной стороне ты прислал башмаки и она закрепилась.&lt;/div&gt;&lt;div&gt;По четной стороне ты прислала сотрудников и время, но без башмаков, а они требуются.&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Обе стороны записались в БД. Но т.к. четная сторона без требуемого кол-ва башмаков, то бэк не считает это закрепление до конца выполненным, поэтому partially_fixed и операция не создана" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="WePA6gwzuE8UTN-Zw10l-2" value="&lt;div&gt;&lt;div&gt;ДА, похоже, что по нечетной стороне ты прислал башмаки и она закрепилась.&lt;/div&gt;&lt;div&gt;По четной стороне ты прислала сотрудников и время, но без башмаков, а они требуются.&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Обе стороны записались в БД. Но т.к. четная сторона без требуемого кол-ва башмаков, то бэк не считает это закрепление до конца выполненным, поэтому partially_fixed и операция не создана" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-5" y="1330" width="520" height="97" as="geometry" />
         </mxCell>
-        <mxCell id="WePA6gwzuE8UTN-Zw10l-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Если восстанавливаем закрепление только по одной стороне:&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="WePA6gwzuE8UTN-Zw10l-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Если восстанавливаем закрепление только по одной стороне:&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-7" y="875" width="392" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="ykM70H97hNXL_74F-_Kk-1" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2785" y="806" as="sourcePoint" />
+            <mxPoint x="3216" y="806" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ykM70H97hNXL_74F-_Kk-2" value="9:00" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2771" y="809" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ykM70H97hNXL_74F-_Kk-3" value="12:00" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2864" y="809" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ykM70H97hNXL_74F-_Kk-4" value="15:00" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2964" y="809" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ykM70H97hNXL_74F-_Kk-5" value="18:00" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3061" y="809" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ykM70H97hNXL_74F-_Kk-6" value="21:00" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3151" y="809" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ykM70H97hNXL_74F-_Kk-8" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2774" y="780" as="sourcePoint" />
+            <mxPoint x="3177" y="782" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2791" y="780" />
+              <mxPoint x="2791" y="558" />
+              <mxPoint x="2885" y="558" />
+              <mxPoint x="2885" y="786" />
+              <mxPoint x="2996" y="786" />
+              <mxPoint x="2996" y="688" />
+              <mxPoint x="3062" y="688" />
+              <mxPoint x="3062" y="587" />
+              <mxPoint x="3177" y="587" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
